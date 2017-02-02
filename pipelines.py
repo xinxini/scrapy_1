@@ -4,14 +4,6 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
-from scrapy import signals
-import json
-import codecs
-from twisted.enterprise import adbapi
-from datetime import datetime
-from hashlib import md5
-import MySQLdb
-import MySQLdb.cursors
 
 import sys
 reload(sys)
